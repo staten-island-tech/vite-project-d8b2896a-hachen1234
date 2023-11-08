@@ -1,3 +1,3 @@
 import "./style.css";
 import { data } from "./dom.js";
-data;
+console.log(data);
