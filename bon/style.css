@@ -1,0 +1,9 @@
+:root {
+  --blue: #4281A4
+  --green:#48A9A6
+  --white:#E4DFDA
+  --brown:#D4B483
+  --red:#C1666B
+  --cyan:#C6D4FF
+  --primary:var(--blue)
+  }
