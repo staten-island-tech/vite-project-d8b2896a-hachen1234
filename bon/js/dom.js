@@ -59,6 +59,12 @@ const data = [
     link: "https://www.etsy.com/listing/1262308352/allosaurus-dinosaur-life-size-statue?click_key=c46308cc38dc66d9e1c5b2fa318a9c54c651e0c4%3A1262308352&click_sum=fe9049af&ref=sold_out-4&frs=1",
     Image: "bon/img/img11.webp",
   },
+  {
+    name: "Buddha Shrek",
+    cost: "$9.99+ ",
+    link: "https://www.etsy.com/listing/1442804495/buddha-shrek-funny-desk-decoration-great?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=weird+stuff&ref=sr_gallery-1-5&organic_search_click=1",
+    Image: "bon/img/img12.webp",
+  },
 ];
 
 export { data };
