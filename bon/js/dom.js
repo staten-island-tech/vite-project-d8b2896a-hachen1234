@@ -1,3 +1,6 @@
+const dom = {
+  display: document.querySelector(".cards"),
+};
 const data = [
   {
     name: "cat tissue box",
@@ -67,4 +70,4 @@ const data = [
   },
 ];
 
-export { data };
+export { data, dom };

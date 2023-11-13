@@ -5,8 +5,10 @@
   --brown: #d4b483;
   --red: #c1666b;
   --cyan: #c6d4ff;
-  background-color: var(--green);
+  background-color: var(--white);
+  color: var(--red);
 }
+
 light {
   background-color: var(--white);
   color: var(--red);
