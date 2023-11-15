@@ -21,7 +21,7 @@ green {
   background-color: var(--green);
   color: var(--cyan);
 }
-.cards {
+.display {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

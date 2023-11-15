@@ -1,5 +1,5 @@
 const dom = {
-  display: document.querySelector(".cards"),
+  display: document.querySelector(".display"),
 };
 const data = [
   {
