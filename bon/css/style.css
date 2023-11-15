@@ -23,13 +23,11 @@ green {
 }
 .cards {
   display: flex;
-  margin: 2rem;
   flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
-  margin-bottom: 5rem;
-  width: 50%;
 }
 .card {
   width: 65rem;
