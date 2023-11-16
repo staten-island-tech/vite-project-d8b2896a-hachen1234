@@ -17,6 +17,7 @@ data.forEach((data) => {
   insertcard();
 });
 dom.instockbtn.addEventListener("click", function () {
+  e.target.parentElement.remove(insertcard);
   dom.display.innerHTML = "";
   data
     .filter((data) => data.instock === true)
