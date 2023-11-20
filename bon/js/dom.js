@@ -2,6 +2,7 @@ const dom = {
   display: document.querySelector(".display"),
   instockbtn: document.querySelector(".instockbtn"),
   animalbtn: document.querySelector(".animalbtn"),
+  totalbtn: document.querySelector(".totalbtn"),
 };
 const data = [
   {
