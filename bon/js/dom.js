@@ -3,6 +3,7 @@ const dom = {
   instockbtn: document.querySelector(".instockbtn"),
   animalbtn: document.querySelector(".animalbtn"),
   totalbtn: document.querySelector(".totalbtn"),
+  theme: document.querySelector(".Theme"),
 };
 const data = [
   {
@@ -50,7 +51,7 @@ const data = [
     cost: "$185.00",
     link: "https://www.etsy.com/listing/1431730766/taxidermy-rat-fantasy?gpla=1&gao=1&",
     Image: "./img/img7.jpg",
-    instock: true,
+    instock: false,
     animalrelated: true,
   },
   {
@@ -90,6 +91,14 @@ const data = [
     cost: "$9.99+ ",
     link: "https://www.etsy.com/listing/1442804495/buddha-shrek-funny-desk-decoration-great?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=weird+stuff&ref=sr_gallery-1-5&organic_search_click=1",
     Image: "./img/img12.webp",
+    instock: true,
+    animalrelated: false,
+  },
+  {
+    name: "Realistic Kirby - 3D Print ",
+    cost: "$5.00+  ",
+    link: "https://www.etsy.com/listing/1231759597/realistic-kirby-3d-print?gpla=1&gao=1&",
+    Image: "./img/img13.avif",
     instock: true,
     animalrelated: false,
   },

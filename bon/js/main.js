@@ -17,10 +17,12 @@ data.forEach((data) => {
   }
   insertcard();
 });
-dom.instockbtn.addEventListener("click", function () {
-  dom.display.insertAdjacentHTML(
-    "afterbegin",
-    ` 
+dom.totalbtn.addEventListener("click", function () {
+  dom.display.innerHTML = "";
+  data.forEach((data) => {
+    dom.display.insertAdjacentHTML(
+      "afterbegin",
+      ` 
     <div class="card">
           <h2 class="name">${data.name}</h2>
           <img class="image"src="${data.Image}" alt="">
@@ -28,9 +30,11 @@ dom.instockbtn.addEventListener("click", function () {
           <a href="${data.link}"> <button>Click Here to Visit Site</button> </a>
           </div>
           `
-  );
+    );
+  });
 });
-dom.totalbtn.addEventListener("click", function () {
+dom.instockbtn.addEventListener("click", function () {
+  dom.display.innerHTML = "";
   data
     .filter((data) => data.instock === true)
     .forEach((data) => {
@@ -65,3 +69,4 @@ dom.animalbtn.addEventListener("click", function () {
       );
     });
 });
+dom.theme.addEventListener("click", function () {});
