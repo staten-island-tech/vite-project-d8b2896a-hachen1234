@@ -69,4 +69,7 @@ dom.animalbtn.addEventListener("click", function () {
       );
     });
 });
-dom.theme.addEventListener("click", function () {});
+dom.theme.addEventListener("click", function () {
+  if (theme) {
+  }
+});
