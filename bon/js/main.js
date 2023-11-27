@@ -72,20 +72,19 @@ import { data, dom } from "./dom";
 function clear() {
   dom.display.innerHTML = "";
 }
+
 function insertcard() {
   dom.display.insertAdjacentHTML(
     "afterbegin",
     ` 
-        <div class="card">
+      <div class="card">
             <h2 class="name">${data.name}</h2>
-             <img class="image"src="${data.Image}" alt="">
-              <h3 class="price">${data.cost}</h3>
-              <a href="${data.link}"> <button>Click Here to Visit Site</button> </a>
-              </div>
-            
-              `
+            <img class="image"src="${data.Image}" alt="">
+            <h3 class="price">${data.cost}</h3>
+            <a href="${data.link}"> <button>Click Here to Visit Site</button> </a>
+            </div>
+          
+            `
   );
 }
-const all = data.forEach((data) => {
-  insertcard(data);
-});
+insertcard(data);
