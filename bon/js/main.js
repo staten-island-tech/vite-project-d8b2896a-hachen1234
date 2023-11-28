@@ -109,3 +109,6 @@ dom.totalbtn.addEventListener("click", function () {
     insertcard(data);
   });
 });
+dom.theme.addEventListener("click", function () {
+  toggle;
+});

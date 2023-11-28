@@ -8,21 +8,22 @@
   --pink: #ffaebc;
   --purple: #afb4ff;
   font-size: 10px;
+  font-family: "Handlee", cursive;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: var(--purple);
-  color: var(--red);
+  --primary: var(--purple);
+  --secondary: var(--red);
+}
+.light {
+  --primary: var(--purple);
+  --secondary: var(--red);
+}
+.green {
+  --primary: var(--green);
+  --secondary: var(--cyan);
 }
 
-light {
-  background-color: var(--purple);
-  color: var(--red);
-}
-green {
-  background-color: var(--green);
-  color: var(--cyan);
-}
 .display {
   display: flex;
   flex-direction: row;
@@ -30,6 +31,8 @@ green {
   margin: 2rem;
   flex-wrap: wrap;
   align-items: center;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 .card {
   width: 70rem;
