@@ -90,3 +90,22 @@ function insertcard(data) {
 data.forEach((data) => {
   insertcard(data);
 });
+
+dom.instockbtn.addEventListener("click", function () {
+  clear();
+  const instockitem = data.filter((data) => data.instock === true);
+  instockitem.forEach((item) => insertcard(item));
+});
+
+dom.animalbtn.addEventListener("click", function () {
+  clear();
+  const animalitem = data.filter((data) => data.animalrelated === true);
+  animalitem.forEach((item) => insertcard(item));
+});
+
+dom.totalbtn.addEventListener("click", function () {
+  clear();
+  data.forEach((data) => {
+    insertcard(data);
+  });
+});
