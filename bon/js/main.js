@@ -73,7 +73,7 @@ function clear() {
   dom.display.innerHTML = "";
 }
 
-function insertcard() {
+function insertcard(data) {
   dom.display.insertAdjacentHTML(
     "afterbegin",
     ` 
@@ -87,4 +87,6 @@ function insertcard() {
             `
   );
 }
-insertcard(data);
+data.forEach((data) => {
+  insertcard(data);
+});
