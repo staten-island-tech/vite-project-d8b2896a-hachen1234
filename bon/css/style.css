@@ -21,9 +21,16 @@
 }
 .green {
   --primary: var(--green);
-  --secondary: var(--cyan);
+  --secondary: var(--brown);
 }
-
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
 .display {
   display: flex;
   flex-direction: row;
@@ -31,8 +38,6 @@
   margin: 2rem;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--primary);
-  color: var(--secondary);
 }
 .card {
   width: 70rem;

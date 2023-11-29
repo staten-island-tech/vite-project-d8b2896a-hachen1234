@@ -110,5 +110,11 @@ dom.totalbtn.addEventListener("click", function () {
   });
 });
 dom.theme.addEventListener("click", function () {
-  toggle;
+  if (document.body.classList.contains("light")) {
+    document.body.classList.add("green");
+    document.body.classList.remove("light");
+  } else {
+    document.body.classList.add("light");
+    document.body.classList.remove("green");
+  }
 });
