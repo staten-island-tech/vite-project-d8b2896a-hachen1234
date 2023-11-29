@@ -110,11 +110,11 @@ dom.totalbtn.addEventListener("click", function () {
   });
 });
 dom.theme.addEventListener("click", function () {
-  if (document.body.classList.contains("light")) {
+  if (document.body.classList.contains("purple")) {
     document.body.classList.add("green");
-    document.body.classList.remove("light");
+    document.body.classList.remove("purple");
   } else {
-    document.body.classList.add("light");
+    document.body.classList.add("purple");
     document.body.classList.remove("green");
   }
 });
