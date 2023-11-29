@@ -56,8 +56,10 @@ img {
   height: 40rem;
 }
 button {
-  width: 10rem;
-  height: 8rem;
+  width: 8rem;
+  height: 6rem;
+  font-family: "Handlee", cursive;
+  font-size: 1.5rem;
 }
 .choices {
   margin-right: 10rem;
